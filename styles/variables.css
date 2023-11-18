@@ -1,16 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --Inter-Variable: 'Inter-Variable';
-    --PressStart2P-Regular: 'PressStart2P-Regular';
-    --font-weight-h: 400;
-    --font-weight-p: 700;
-    --button-text-color: white;
-    --background-color: white;
-    --accent-color:  black;
-    --gradient-horisintal-left: #d3d3d3;
-    --gradient-vertical-top: #e7e7e7;
-    --gradient-vertical-bottom: #1a1a1a;
-    --block-width: clamp(23.438rem, 30.141vw + 16.373rem, 43.5rem);
-    --countour-color: black;
-    --sparks-color: red;
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P-Regular";
+  --font-weight-h: 400;
+  --font-weight-p: 700;
+  --button-text-color: white;
+  --background-color: white;
+  --accent-color: black;
+  --page-gradient: repeating-linear-gradient(
+      #d3d3d3 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(#e7e7e7, #1a1a1a);
+  --block-width: clamp(23.438rem, 30.141vw + 16.373rem, 43.5rem);
+  --countour-color: black;
+  --sparks-color: red;
 }
