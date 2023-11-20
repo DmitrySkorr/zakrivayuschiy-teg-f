@@ -48,6 +48,7 @@
   line-height: normal;
   margin-top: clamp(7.5rem, 1.502vw + 7.148rem, 8.5rem);
   font-size: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+  text-decoration: none;
 }
 .header_h2 {
   display: flex;
@@ -189,7 +190,7 @@
   }
 }
 .card__p {
-  margin: 25px 25px 25px 20px;
+  margin: 25px 25px 25px 25px;
   font-family: var(--main-font), Arial;
   font-size: 18px;
   font-style: normal;
@@ -211,7 +212,7 @@
   justify-self: right;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   margin-right: 25px;
   margin-bottom: 25px;
 }
@@ -287,8 +288,8 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  gap: 8px;
-  padding: 15px 20px;
+  gap: 10px;
+  padding: 15px 20px 10px 20px;
   margin-bottom: 104px;
 }
 .save-icon {
