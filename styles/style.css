@@ -116,7 +116,7 @@
 }
 .card__h3-container {
   display: flex;
-  padding: 4px 0px 4px 10px;
+  padding: 4px 4px 4px 10px;
   font-family: var(--main-font), Arial;
   font-size: 18px;
   font-style: normal;
