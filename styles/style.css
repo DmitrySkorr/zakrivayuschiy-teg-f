@@ -278,14 +278,12 @@
 .button__all {
   position: relative;
   transition: box-shadow 0.3s ease-in-out;
-  background-color: transparent;
   border: 2px solid var(--accent-color);
   background-color: var(--background-color);
   padding: 9px 17px;
 }
 .button_save {
   width: fit-content;
-  padding: 0;
   height: 84px;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -391,5 +389,3 @@
   width: clamp(16.063rem, 3.38vw + 15.27rem, 18.313rem);
   margin-bottom: 30px;
 }
-
-
