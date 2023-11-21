@@ -2,8 +2,8 @@
 :root {
   --main-font: "Inter-Variable";
   --accent-font: "PressStart2P-Regular";
-  --font-weight-h: 400;
-  --font-weight-p: 700;
+  --font-weight-p: 400;
+  --font-weight-h: 700;
   --button-text-color: white;
   --background-color: white;
   --accent-color: black;
@@ -17,3 +17,4 @@
   --countour-color: black;
   --sparks-color: red;
 }
+
